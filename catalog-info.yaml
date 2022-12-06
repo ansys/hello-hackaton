@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hello-world
+  description: test 
+  tags:
+    - python
+    - website
+spec:
+  type: service
+  lifecycle: production
+  owner: hackaton
